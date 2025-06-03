@@ -1,0 +1,44 @@
+
+**Question 1:**
+Consider the following table showing website traffic for the first three months of the year:
+
+| Month    | Unique Visitors | Page Views |
+| :------- | :-------------- | :--------- |
+| January  | 10,000          | 30,000     |
+| February | 12,000          | 33,000     |
+| March    | 11,000          | 35,000     |
+
+Which statement accurately describes a trend shown in the table?
+A) Unique visitors consistently increased each month.
+B) Page views consistently decreased each month.
+C) The average page views per unique visitor was highest in January.
+D) Page views increased from January to March, despite a dip in unique visitors in March.
+
+**Correct Answer:** D
+**Explanation:** Unique visitors increased from Jan to Feb, then decreased in March. Page views increased from Jan to Feb, and again from Feb to March.
+Average page views: Jan (30k/10k = 3), Feb (33k/12k = 2.75), March (35k/11k = 3.18). So C is incorrect. Statement D accurately reflects the data for page views and unique visitors.
+
+**Question 2:**
+A bar chart displays the monthly sales figures for a product over a year. If the bars for July, August, and September are noticeably taller than the bars for all other months, what is the most likely interpretation?
+A) The product experienced its lowest sales during the summer months.
+B) The product has a seasonal peak in sales during the summer.
+C) The cost of producing the product was highest in the summer.
+D) There was a data recording error for the summer months.
+
+**Correct Answer:** B
+**Explanation:** Taller bars in a sales chart typically represent higher sales figures. If July, August, and September consistently show higher sales than other months, it indicates a seasonal trend where sales peak during that period (summer in the northern hemisphere).
+
+**Question 3:**
+A company's revenue increased by 15% from Year 1 to Year 2. During the same period, its operational costs increased by 10%. Assuming the company was profitable in Year 1, what can be logically concluded about its profit in Year 2 compared to Year 1?
+A) Profit definitely decreased.
+B) Profit definitely remained the same.
+C) Profit likely increased, but it's not guaranteed without knowing the actual revenue and cost figures.
+D) Profit definitely increased.
+
+**Correct Answer:** D
+**Explanation:** If revenue (income) grows at a faster percentage rate than costs, and the company was initially profitable (Revenue > Costs), then the absolute increase in revenue will be greater than the absolute increase in costs, leading to an increase in profit (Profit = Revenue - Costs).
+Example: Y1: R=100, C=50, P=50.
+Y2: R=115 (15% up), C=55 (10% up), P=60. Profit increased.
+This holds as long as the initial profit margin allows the percentage differences to work this way. Given "Easy" difficulty, a direct conclusion is expected. If R=100, C=90, P=10. R_new=115, C_new=99. P_new=16. Still an increase.
+
+---
