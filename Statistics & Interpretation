@@ -1,0 +1,44 @@
+
+
+**Question 1:**
+A company analyzes the salaries of its 100 employees. The CEO's salary is significantly higher than all other employees. If the CEO's salary is included in the calculation, which measure of central tendency will be most affected and in what direction?
+A) The median will increase significantly.
+B) The mean will increase significantly.
+C) The mode will increase significantly.
+D) The mean will decrease significantly.
+
+**Correct Answer:** B
+**Explanation:** The mean (average) is sensitive to extreme values (outliers). A very high salary (like the CEO's) will pull the mean upwards. The median, being the middle value, is less affected by extreme outliers.
+
+**Question 2:**
+Two datasets of exam scores are being compared. Dataset A has a standard deviation of 5, and Dataset B has a standard deviation of 15. Assuming the mean score is similar for both datasets, what can be inferred?
+A) The scores in Dataset A are, on average, higher than in Dataset B.
+B) The scores in Dataset A are more spread out from the mean than in Dataset B.
+C) The scores in Dataset B are more spread out from the mean than in Dataset A.
+D) Dataset B likely has more outliers than Dataset A.
+
+**Correct Answer:** C
+**Explanation:** Standard deviation (SD) measures the dispersion or spread of data points around the mean. A higher SD (like in Dataset B) indicates that the data points are, on average, further away from the mean, meaning more variability or spread.
+
+**Question 3:**
+A study finds a strong positive correlation between the number of ice cream cones sold and the number of drowning incidents on a particular beach. Which statement is the most statistically sound interpretation?
+A) Eating ice cream causes people to be more prone to drowning.
+B) Drowning incidents lead to an increased demand for ice cream.
+C) There is likely a third variable, such as hot weather, that is influencing both ice cream sales and the number of people swimming (and thus potential drowning incidents).
+D) The correlation is purely coincidental and has no underlying explanation.
+
+**Correct Answer:** C
+**Explanation:** Correlation does not imply causation. It's highly probable that a confounding variable (like temperature or season) leads to both increased ice cream sales and more people swimming, which in turn increases the risk of drowning.
+
+**Question 4:**
+Consider the following dataset of waiting times (in minutes) at a customer service desk: `[5, 7, 6, 8, 5, 75, 9, 6]`. Which value in this dataset is most clearly an outlier, and how would its removal likely impact the mean and median?
+A) 75 is an outlier; its removal would significantly decrease the mean and slightly decrease the median.
+B) 5 is an outlier; its removal would significantly increase the mean and slightly increase the median.
+C) 75 is an outlier; its removal would significantly decrease both the mean and the median.
+D) There are no clear outliers in this dataset.
+
+**Correct Answer:** A
+**Explanation:** The value 75 is significantly higher than the other values, making it an outlier. Removing this outlier will cause the mean (which is sensitive to extreme values) to decrease substantially. The median (the middle value when sorted) will also decrease, but likely by a smaller amount as it's more robust to outliers.
+Sorted: `[5, 5, 6, 6, 7, 8, 9, 75]`. Median with outlier = (6+7)/2 = 6.5.
+Sorted without outlier: `[5, 5, 6, 6, 7, 8, 9]`. Median without outlier = 6.
+
