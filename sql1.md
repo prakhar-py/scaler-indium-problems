@@ -75,6 +75,7 @@ ORDER BY
     c.CustomerName,
     Quarter;
 
+```
 **Hints:**
 
 Hint 1:
@@ -84,5 +85,5 @@ Hint 2:
 To group by quarter, you'll need to extract the quarter from the OrderDate. After that, aggregate the spending (price * quantity) for each customer within each of these quarters.
 
 
-```
+
 
