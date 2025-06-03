@@ -89,3 +89,10 @@ def calculate_average_salary_for_department(employee_df: pd.DataFrame, target_de
 ```
 
 ---
+
+**Hints:**
+Hint 1:
+Use boolean indexing on the DataFrame to select only the rows where the 'Department' column matches the target_department.
+
+Hint 2:
+Once you have the filtered DataFrame for the target department, pandas Series have a convenient method to directly calculate the mean of a column (e.g., the 'Salary' column).
