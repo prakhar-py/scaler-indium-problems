@@ -1,8 +1,7 @@
 ### Question 2: Products Not Sold in the Last 6 Months (Easy)
 
-**Topics:** Subqueries (NOT IN or LEFT JOIN/IS NULL), Joins, Date Functions
 
-**Question:**
+**Problem Statement:**
 You have `Products` and `Sales` tables. Write an SQL query to find all products that have not been sold in the last 6 months from a given reference date (e.g., '2023-12-31'). The output should only contain the product names. Assume the current date for calculation is '2023-12-31'.
 
 **Schema:**
