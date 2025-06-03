@@ -1,0 +1,42 @@
+
+
+**Question 1:**
+You have a large dataset of sales transactions, and you want to quickly see the total sales amount for each product category, broken down by region. Which Excel/Google Sheets feature is most suitable for this task?
+A) Conditional Formatting
+B) VLOOKUP
+C) Pivot Table
+D) Data Filters
+
+**Correct Answer:** C
+**Explanation:** Pivot Tables are designed to summarize, group, and analyze large datasets by allowing you to dynamically rearrange fields (like product category and region) to see aggregated values (like total sales).
+
+**Question 2:**
+In Google Sheets, you have a list of employee IDs in Column A of 'Sheet1'. In 'Sheet2', you have employee IDs in Column A and their corresponding department names in Column B. To bring the department name into 'Sheet1' next to each employee ID, which formula would you use in 'Sheet1', assuming the employee ID you are looking up is in cell A2 of 'Sheet1'?
+A) `=SUMIF(Sheet2!A:B, A2, Sheet2!B:B)`
+B) `=VLOOKUP(A2, Sheet2!A:B, 2, FALSE)`
+C) `=FILTER(Sheet2!B:B, Sheet2!A:A=A2)`
+D) `=IF(Sheet2!A:A=A2, Sheet2!B:B, "")`
+
+**Correct Answer:** B
+**Explanation:** VLOOKUP is used to search for a value in the first column of a range and return a value in the same row from a specified column. `A2` is the search key, `Sheet2!A:B` is the range, `2` indicates the second column (Department) to return, and `FALSE` ensures an exact match.
+
+**Question 3:**
+You have applied filters to a dataset in Excel to show only sales records from the "North" region. What happens to the records from other regions?
+A) They are permanently deleted from the dataset.
+B) They are moved to a separate hidden sheet.
+C) They are temporarily hidden from view but remain in the dataset.
+D) Their font color is changed to white to make them invisible.
+
+**Correct Answer:** C
+**Explanation:** Filters in Excel/Google Sheets temporarily hide rows that do not meet the specified criteria. The data is not deleted or moved; it's just not displayed until the filter is removed.
+
+**Question 4:**
+Which of the following best describes the primary purpose of Conditional Formatting in a spreadsheet?
+A) To perform complex calculations based on cell values.
+B) To automatically sort data based on specified criteria.
+C) To create interactive charts and graphs from the data.
+D) To apply visual cues (like colors, icons, or data bars) to cells based on their values or specific rules.
+
+**Correct Answer:** D
+**Explanation:** Conditional Formatting is used to highlight cells or ranges of cells, making it easier to visualize data, identify trends, spot outliers, or call attention to important information based on rules you define.
+
