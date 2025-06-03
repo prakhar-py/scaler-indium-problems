@@ -23,6 +23,31 @@ You have `Products` and `Sales` tables. Write an SQL query to find all products 
 
 ---
 
+**Sample Input:**
+
+**UserLogins Table:**
+| LogID | UserID | LoginDate  |
+|-------|--------|------------|
+| 1     | 101    | 2023-10-01 |
+| 2     | 101    | 2023-10-02 |
+| 3     | 101    | 2023-10-03 |
+| 4     | 102    | 2023-10-01 |
+| 5     | 101    | 2023-10-05 | -- Streak broken for User 101
+| 6     | 101    | 2023-10-06 |
+| 7     | 102    | 2023-10-02 |
+| 8     | 102    | 2023-10-04 | -- Streak broken for User 102
+| 9     | 102    | 2023-10-05 |
+| 10    | 101    | 2023-10-02 | -- Duplicate login, doesn't extend streak, handled by distinct login dates
+| 11    | 103    | 2023-11-01 |
+| 12    | 103    | 2023-11-02 |
+| 13    | 103    | 2023-11-03 |
+| 14    | 103    | 2023-11-04 |
+| 15    | 103    | 2023-11-05 |
+
+
+---
+
+
 **Sample Output:**
 (Assuming reference date '2023-12-31'. Last 6 months means sales on or after '2023-07-01'.)
 ```
