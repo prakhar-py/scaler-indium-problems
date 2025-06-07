@@ -29,6 +29,39 @@ You are given tables for `Customers`, `Orders`, and `OrderItems`. Write an SQL q
 | Quantity      | INT           |                                      |
 
 
+
+**Sample Input:**
+
+**Customers Table:**
+| CustomerID | CustomerName |
+|------------|--------------|
+| 1          | Alice Wonderland |
+| 2          | Bob The Builder |
+| 3          | Charlie Brown |
+
+**Orders Table:**
+| OrderID | CustomerID | OrderDate  |
+|---------|------------|------------|
+| 101     | 1          | 2023-02-15 |
+| 102     | 2          | 2023-03-20 |
+| 103     | 1          | 2023-05-10 |
+| 104     | 3          | 2023-08-01 |
+| 105     | 2          | 2023-11-05 |
+| 106     | 1          | 2022-12-20 |
+
+**OrderItems Table:**
+| OrderItemID | OrderID | ProductName | Price   | Quantity |
+|-------------|---------|-------------|---------|----------|
+| 1           | 101     | Widget A    | 10.00   | 2        |
+| 2           | 101     | Widget B    | 15.00   | 1        |
+| 3           | 102     | Gadget X    | 25.00   | 3        |
+| 4           | 103     | Widget A    | 10.00   | 5        |
+| 5           | 104     | Gizmo Z     | 50.00   | 1        |
+| 6           | 105     | Gadget Y    | 30.00   | 2        |
+| 7           | 106     | Old Item    | 5.00    | 1        |
+
+
+
 **Sample Output:**
 ```
 | CustomerName    | Quarter | TotalSpent |
@@ -83,7 +116,5 @@ You'll need to combine information from three tables: one for customer details, 
 
 Hint 2:
 To group by quarter, you'll need to extract the quarter from the OrderDate. After that, aggregate the spending (price * quantity) for each customer within each of these quarters.
-
-
 
 
