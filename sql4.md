@@ -36,13 +36,13 @@ You are given a `UserLogins` table that records each time a user logs into a sys
 | 15    | 103    | 2023-11-05 |
 
 **Sample Output:**
-```
+
 | UserID | MaxConsecutiveDays |
 |--------|--------------------|
 | 101    | 3                  |
 | 102    | 2                  |
 | 103    | 5                  |
-```
+
 *Calculation Hints:*
 *   **User 101:**
     *   Logs: 2023-10-01, 2023-10-02, 2023-10-03 (Streak 1: 3 days)
