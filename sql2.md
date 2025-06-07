@@ -52,12 +52,12 @@ You have `Products` and `Sales` tables. Write an SQL query to find all products 
 
 **Sample Output:**
 (Assuming reference date '2023-12-31'. Last 6 months means sales on or after '2023-07-01'.)
-```
+
 | ProductName     |
 |-----------------|
 | Ergonomic Chair |
 | Desk Lamp       |
-```
+
 *Calculation Hints:*
 *   The reference date is '2023-12-31'. The 6-month period starts from '2023-07-01'.
 *   Laptop Pro: Sold on 2023-09-01 (within last 6 months).
