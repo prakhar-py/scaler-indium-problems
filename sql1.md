@@ -63,7 +63,7 @@ You are given tables for `Customers`, `Orders`, and `OrderItems`. Write an SQL q
 
 
 **Sample Output:**
-```
+
 | CustomerName    | Quarter | TotalSpent |
 |-----------------|---------|------------|
 | Alice Wonderland| Q1      | 35.00      |
@@ -71,7 +71,7 @@ You are given tables for `Customers`, `Orders`, and `OrderItems`. Write an SQL q
 | Bob The Builder | Q1      | 75.00      |
 | Bob The Builder | Q4      | 60.00      |
 | Charlie Brown   | Q3      | 50.00      |
-```
+
 *Calculation Hints:*
 *   Alice (Q1): (10.00 * 2) + (15.00 * 1) = 20 + 15 = 35.00 (Order 101 on 2023-02-15)
 *   Alice (Q2): (10.00 * 5) = 50.00 (Order 103 on 2023-05-10)
