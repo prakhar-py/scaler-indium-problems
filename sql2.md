@@ -25,24 +25,26 @@ You have `Products` and `Sales` tables. Write an SQL query to find all products 
 
 **Sample Input:**
 
-**UserLogins Table:**
-| LogID | UserID | LoginDate  |
-|-------|--------|------------|
-| 1     | 101    | 2023-10-01 |
-| 2     | 101    | 2023-10-02 |
-| 3     | 101    | 2023-10-03 |
-| 4     | 102    | 2023-10-01 |
-| 5     | 101    | 2023-10-05 | -- Streak broken for User 101
-| 6     | 101    | 2023-10-06 |
-| 7     | 102    | 2023-10-02 |
-| 8     | 102    | 2023-10-04 | -- Streak broken for User 102
-| 9     | 102    | 2023-10-05 |
-| 10    | 101    | 2023-10-02 | -- Duplicate login, doesn't extend streak, handled by distinct login dates
-| 11    | 103    | 2023-11-01 |
-| 12    | 103    | 2023-11-02 |
-| 13    | 103    | 2023-11-03 |
-| 14    | 103    | 2023-11-04 |
-| 15    | 103    | 2023-11-05 |
+
+**Products Table:**
+| ProductID | ProductName     | Category    |
+|-----------|-----------------|-------------|
+| 1         | Laptop Pro      | Electronics |
+| 2         | Coffee Maker    | Appliances  |
+| 3         | Ergonomic Chair | Furniture   |
+| 4         | Smart Watch     | Electronics |
+| 5         | Desk Lamp       | Furniture   |
+
+**Sales Table:**
+| SaleID | ProductID | SaleDate   | QuantitySold |
+|--------|-----------|------------|--------------|
+| 1      | 1         | 2023-05-15 | 1            |
+| 2      | 2         | 2023-08-20 | 2            |
+| 3      | 1         | 2023-09-01 | 1            |
+| 4      | 3         | 2023-03-10 | 1            |
+| 5      | 4         | 2023-10-05 | 3            |
+| 6      | 2         | 2023-04-01 | 1            |
+
 
 
 ---
